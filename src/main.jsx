@@ -8,3 +8,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <App />
   </React.StrictMode>
 );
+// at the end of your existing main.jsx (or index.jsx)
+if ("serviceWorker" in navigator) {
+  const swUrl = new URL("sw.js", import.meta.env.BASE_URL);
+  navigator.serviceWorker.register(swUrl.href);
+}
+
