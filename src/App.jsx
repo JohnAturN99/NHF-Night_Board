@@ -74,7 +74,11 @@ const SERV_TYPE_OPTIONS = [
 const CALC_INTERVALS = [14, 28, 56, 112, 180, 365];
 
 // Hours ratio
+<<<<<<< HEAD
 const ENG_TO_AF = 0.85; // 1 Eng hr = 0.85 AF hr
+=======
+const ENG_TO_AF = 0.8; // 1 Eng hr = 0.8 AF hr
+>>>>>>> aa58d1e669c1eee08387c46296b920f19d243875
 
 /* =========================
    Helpers (IDs, status, parsing)
@@ -2218,7 +2222,11 @@ S2 Profile A, Profile C, 1/Rev, 4/Rev
                 {/* Converter */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-3">
                   <label className="text-sm">
+<<<<<<< HEAD
                     <span className="block text-gray-700 mb-1">Engine hours → AF (×0.85)</span>
+=======
+                    <span className="block text-gray-700 mb-1">Engine hours → AF (×0.8)</span>
+>>>>>>> aa58d1e669c1eee08387c46296b920f19d243875
                     <input
                       className="w-full border rounded px-3 py-2 text-sm"
                       value={engHours}
@@ -2232,7 +2240,11 @@ S2 Profile A, Profile C, 1/Rev, 4/Rev
                   </label>
 
                   <label className="text-sm">
+<<<<<<< HEAD
                     <span className="block text-gray-700 mb-1">AF hours → Eng (÷0.85)</span>
+=======
+                    <span className="block text-gray-700 mb-1">AF hours → Eng (÷0.8)</span>
+>>>>>>> aa58d1e669c1eee08387c46296b920f19d243875
                     <input
                       className="w-full border rounded px-3 py-2 text-sm"
                       value={afHours}

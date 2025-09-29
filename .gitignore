@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # dependencies
 node_modules/
 **/node_modules/
@@ -13,7 +14,32 @@ build/
 .env.*
 .DS_Store
 Thumbs.db
+=======
+# Logs
+logs
+*.log
+>>>>>>> aa58d1e669c1eee08387c46296b920f19d243875
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+<<<<<<< HEAD
+=======
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+>>>>>>> aa58d1e669c1eee08387c46296b920f19d243875

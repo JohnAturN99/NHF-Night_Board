@@ -1,4 +1,5 @@
 // vite.config.js
+<<<<<<< HEAD
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
@@ -42,3 +43,13 @@ export default defineConfig({
     })
   ]
 })
+=======
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+
+export default defineConfig({
+  plugins: [react()],
+  // MUST match your repo name exactly (case-sensitive)
+  base: "/NHF-Night_Board/",
+});
+>>>>>>> aa58d1e669c1eee08387c46296b920f19d243875
