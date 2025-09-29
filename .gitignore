@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+**/node_modules/
+
+# builds & caches
+dist/
+build/
+.vite/
+.cache/
+
+# env & OS cruft
+.env
+.env.*
+.DS_Store
+Thumbs.db
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
