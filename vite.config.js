@@ -1,7 +1,8 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
+// vite.config.js
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
+  base: '/NHF-Night_Board/',
   plugins: [react()],
-  base: "/NHF-Night_Board/", // <-- change to your repo name
-});
+})
